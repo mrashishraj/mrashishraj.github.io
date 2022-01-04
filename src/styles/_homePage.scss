@@ -376,9 +376,11 @@
 .project-info1 {
   padding: 1rem;
   border-radius: 3px;
-  background: linear-gradient(145deg, #0c0c0c, #0e0e0e);
+  background: #484948;
   box-shadow:  22px 22px 44px #0b0b0b,
   -22px -22px 44px #0f0f0f;
+  height: 232px;
+
 }
 .skills-section {
   background: url("../images/about-bg-shape.png") no-repeat left bottom;
@@ -498,4 +500,15 @@
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
+}
+
+.owl-nav{
+  font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.position-bottom{
+  position: relative;
+  bottom: 20px;
 }
