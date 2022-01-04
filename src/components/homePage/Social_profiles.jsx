@@ -14,9 +14,9 @@ const myProjects = [
   {
     image: "/images/social_tags/Aswin_post.png",
   },
-  {
-    image: "/images/social_tags/Ashish_LI_Post.png",
-  },
+  // {
+  //   image: "/images/social_tags/Ashish_LI_Post.png",
+  // },
   {
     image: "/images/social_tags/Engager_post.png",
   },
@@ -41,11 +41,39 @@ const myProjects = [
   {
     image: "/images/social_tags/WeTheYoung_interview.png",
   },
-  {
-    image: "/images/social_tags/IndianExpress.png",
-  }
+  // {
+  //   image: "/images/social_tags/IndianExpress.png",
+  // }
   
 ];
+
+const options = {
+  margin: 30,
+  responsiveClass: true,
+  nav: true,
+  dots: false,
+  autoplay: false,
+  navText: ["Prev", "Next"],
+  smartSpeed: 100,
+  responsive: {
+      0: {
+          items: 1,
+      },
+      400: {
+          items: 1,
+      },
+      600: {
+          items: 2,
+      },
+      700: {
+          items: 3,
+      },
+      1000: {
+          items: 4,
+
+      }
+  },
+};
 
 const SocialProfiles = () => {
   const [element, controls] = useScroll();
@@ -62,16 +90,28 @@ const SocialProfiles = () => {
             <span className="chonburi-font green-text">Achieve</span>ment
           </h1>
         </div>
-        <OwlCarousel className='owl-theme' loop margin={10} nav={true} dots={true} autoplay>
+        <OwlCarousel className='owl-theme' {...options} loop margin={10} nav={true} dots={true} autoplay>
         {myProjects.map((item,index)=>{
           return(
         <div class='item'>
-                    <Img
-                      placeholder={item.image}
-                      src={item.image}
-                       error="/images/download.png"
-                       alt="React Cool Img"
-                      className="width-100p"/>
+          <div className="">
+            <div className="width-100p height-250px cor-bg-style" style={{backgroundImage:`url(${item.image})`}}>
+              {/* <Img
+                placeholder={item.image}
+                src={item.image}
+                  error="/images/download.png"
+                  alt="React Cool Img"
+                className="width-100p height-auto"/> */}
+            </div>
+            <div className="project-info1">
+              <h5 className="color-white font-weight-bold">
+                ashish raj
+              </h5>
+            </div>
+          </div>
+          <div>
+
+          </div>
         </div>
         )})}
         </OwlCarousel>
