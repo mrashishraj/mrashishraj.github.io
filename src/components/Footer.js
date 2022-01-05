@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="d-flex justify-content-between footer-info mt-4">
             <Nav.Link
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/amananku26/"
+                  href="https://www.linkedin.com/in/ashish-raj-9395211a5/"
                   className="nav-item cursor-pointer"
                   target="_blank"
                   aria-label="Linkedin"
@@ -23,7 +23,7 @@ const Footer = () => {
                 </Nav.Link>
                 <Nav.Link
                   rel="noopener noreferrer"
-                  href="https://github.com/amananku26"
+                  href="https://github.com/mrashishraj"
                   className="nav-item cursor-pointer"
                   aria-label="Github"
                   target="_blank"
@@ -32,7 +32,7 @@ const Footer = () => {
                 </Nav.Link>
                 <Nav.Link
                   rel="noopener noreferrer"
-                  href="https://www.hackerrank.com/amananku26"
+                  href="https://www.hackerrank.com/AshuYadav"
                   className="nav-item cursor-pointer"
                   target="_blank"
                   aria-label="hackerrank"
@@ -45,7 +45,7 @@ const Footer = () => {
                 </Nav.Link>
                 <Nav.Link
                   rel="noopener noreferrer"
-                  href="https://medium.com/@amananku"
+                  href="https://medium.com/@mr.ashishrajyadav"
                   className="nav-item cursor-pointer"
                   target="_blank"
                   aria-label="medium"
@@ -56,25 +56,15 @@ const Footer = () => {
                     alt="icon"
                   />
                 </Nav.Link>
-                <Nav.Link
-                  rel="noopener noreferrer"
-                  href="https://www.youtube.com/c/AmanAnku"
+                <Nav.Link rel="noopener noreferrer"
+                  href="https://auth.geeksforgeeks.org/user/mrashishrajyadav/practice"
                   className="nav-item cursor-pointer"
                   target="_blank"
-                  aria-label="Youtube"
-                >
-                  <YouTubeIcon/>
-                </Nav.Link>
-                <Nav.Link
-                  rel="noopener noreferrer"
-                  href="https://stackoverflow.com/users/14988771/aman-anku"
-                  className="nav-item cursor-pointer"
-                  target="_blank"
-                  aria-label="stackoverflow"
+                  aria-label="geekforgeek"
                 >
                   <img
                     height="25px"
-                    src="images/so.png"
+                    src="images/gfglogo.png"
                     alt="icon"
                   />
                 </Nav.Link>
@@ -103,7 +93,7 @@ const Footer = () => {
         <div className="text-center mt-4  footer-end">
           <p>
             Designed & Developed by{" "}
-            <span className="chonburi-font green-text"> Aman Anku</span>
+            <span className="chonburi-font green-text"> Ashish Raj</span>
           </p>
         </div>
       </div>

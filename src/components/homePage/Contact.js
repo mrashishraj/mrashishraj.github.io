@@ -26,11 +26,11 @@ const Contact = () => {
             </p>
             <h5 className="mb-4">
               <span className="chonburi-font green-text">PhoneNo:</span> +91
-              8986369752
+              8269265211
             </h5>
             <h5 className="mb-4">
               <span className="chonburi-font green-text">Email:</span>{" "}
-              amankumaranku@gmail.com
+              mr.ashishrajyadav@gmail.com
             </h5>
           </Col>
         </Row>
