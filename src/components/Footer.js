@@ -93,7 +93,8 @@ const Footer = () => {
         <div className="text-center mt-4  footer-end">
           <p>
             Designed & Developed by{" "}
-            <span className="chonburi-font green-text"> Ashish Raj</span>
+            <span className="chonburi-font green-text"> Ashish Raj, </span> 
+            Powered by<span className="chonburi-font green-text"> React.js</span>
           </p>
         </div>
       </div>
