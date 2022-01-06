@@ -20,7 +20,7 @@ class Feed extends Component {
       feedbackTypes: ["general", "bug", "idea"],
       zIndex: "100000000"
     };
-    return <span><Feedback projectId="6028a50ea0752f0004fb743a" classname = 'frf-feedback-container'/></span>;
+    return <span><Feedback projectId="61d71ccad0db7700040d069e" classname = 'frf-feedback-container'/></span>;
   }
 }
 
