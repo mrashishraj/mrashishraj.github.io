@@ -44,11 +44,11 @@ const About = () => {
               </h1>
               <p className="details">
                 Implementation Engineer at WebEngage Private Limited
-                (Formerly Known as Webklipper Technologies Pvt Ltd) . I have
-                experience in the frontend development and backend. Interested
-                in devising a better problem‑solving method for challenging
-                tasks, and learning new technologies and tools if the need
-                arises.
+                (Formerly Known as Webklipper Technologies Pvt Ltd). I have
+                experienced in client handling and Implement thier custom use-case of
+                 frontend development and backend. Interested in devising a better 
+                 problem‑solving method for challenging tasks, and learning new 
+                 technologies and tools if the need arises.
               </p>
               <div className="d-flex align-items-center resume-section ">
                 <h6>Resume :</h6>
