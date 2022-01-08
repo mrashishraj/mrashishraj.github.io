@@ -9,63 +9,70 @@ import Img from "react-cool-img";
 
 const myProjects = [
   {
-    image: "/images/img1.jpg",
-    title: "Whatsapp Clone",
-    description:
-      "Tried to replicate WhatsApp UI, and some features also. - Can Create Groups - Can Switch B/w the groups - send messages to any groups Used Firebase for the databases",
-    source: "https://github.com/amananku26/whatsapp-clone",
-    demoLink: "https://whatsapp-clone-53d8c.web.app/rooms/QIPEvsdzwLBr8AcT1WVD",
-    badge: "ReactJS",
-    liveweb: "https://www.youtube.com/watch?v=4DTHrXOLHnQ&t=52s",
+    image: "/images/Projects/DrorApp.png",
+    title: "COVID-Emp-Tracker",
+    description:"Covid employee tracker web-app made for keep a track of company staff and some features like admin login, change the status as Covid+ve or Quarantine etc.",
+    source: "https://github.com/mrashishraj/DrorApp.git",
+    demoLink: "https://emp-covid-tracker.web.app/",
+    badge: "MERN",
   },
   {
-    image: "/images/fbclone.jpg",
-    title: "Facebook Clone",
-    description:
-      "The aim of this project is to make a pixel-perfect clone of Facebook. I used the BEM naming Convention Used Firebase for the databases",
-    source: "https://github.com/amananku26/Facebook-Clone",
-    demoLink: "https://facebook-clone-ccd54.web.app/",
-    badge: "ReactJS",
-    liveweb: "https://www.youtube.com/watch?v=_5Q8vTcpjhI",
-  },
-  {
-    image: "/images/linkedclone.jpg",
+    image: "/images/Projects/Linkedin-Project-1.png",
     title: "Linkedin Clone",
-    description:
-      "This page is designed using HTML, CSS and Reactjs , redux , reduxthunk , json mocker User can upload post Like and comment on other post also.",
-    source: "https://github.com/amananku26/Linkedin-Clone",
-    demoLink: "https://linkedin-clone-a7ba5.web.app/",
-    badge: "ReactJS",
-    liveweb: "https://www.youtube.com/watch?v=CA1xCJvSCw8&t=32s",
-  },
-  {
-    image: "/images/invoice.png",
-    title: "Invoice Application",
-    description:
-      "User can Signup with google api and from iserting own data. After Login They can create a invoice Bonus- Can generate bill in form of PDF",
-    source: "https://github.com/amananku26/kontext-invoice-app",
-    badge: "ReactJS",
-    demoLink: "/",
-  },
-  {
-    image: "/images/Screenshot 2020-10-14 115302.jpg",
-    title: "Shopping Cart",
-    description:
-      "Concept used ContextApi, Axios, Styled-Components, React-Router-Dom. User can Filter thrughout the Products ex - Sort Price , filter category",
-    source: "https://github.com/amananku26/Basic-Shopping-Cart",
-    demoLink: "https://shopping-cart-a0d9a.web.app/",
-    badge: "ReactJS",
-    liveweb: "https://www.youtube.com/watch?v=ukYdUnHidq8",
-  },
-  {
-    image: "/images/covid.png",
-    title: "Covid Vaccine Slot Availability",
-    description:
-      "User can Get the Detail of Availability of Slots of Vaccine on one click",
-    source: "https://github.com/amananku26/covidSaharsa",
-    demoLink: "https://covidsaharsa.netlify.app/",
+    description:"Some feature link login with different account, comment and link of linkedin with pixel perfect UI",
+    source: "https://github.com/mrashishraj/router-project-ashish-raj/tree/main/linkedin-page",
+    demoLink: "https://linkedin-clone-a9e9f.web.app/",
     badge: "ReactJS",
   },
+
+  // {
+  //   image: "/images/fbclone.jpg",
+  //   title: "Facebook Clone",
+  //   description:
+  //     "The aim of this project is to make a pixel-perfect clone of Facebook. I used the BEM naming Convention Used Firebase for the databases",
+  //   source: "https://github.com/amananku26/Facebook-Clone",
+  //   demoLink: "https://facebook-clone-ccd54.web.app/",
+  //   badge: "ReactJS",
+  //   liveweb: "https://www.youtube.com/watch?v=_5Q8vTcpjhI",
+  // },
+  // {
+  //   image: "/images/linkedclone.jpg",
+  //   title: "Linkedin Clone",
+  //   description:
+  //     "This page is designed using HTML, CSS and Reactjs , redux , reduxthunk , json mocker User can upload post Like and comment on other post also.",
+  //   source: "https://github.com/amananku26/Linkedin-Clone",
+  //   demoLink: "https://linkedin-clone-a7ba5.web.app/",
+  //   badge: "ReactJS",
+  //   liveweb: "https://www.youtube.com/watch?v=CA1xCJvSCw8&t=32s",
+  // },
+  // {
+  //   image: "/images/invoice.png",
+  //   title: "Invoice Application",
+  //   description:
+  //     "User can Signup with google api and from iserting own data. After Login They can create a invoice Bonus- Can generate bill in form of PDF",
+  //   source: "https://github.com/amananku26/kontext-invoice-app",
+  //   badge: "ReactJS",
+  //   demoLink: "/",
+  // },
+  // {
+  //   image: "/images/Screenshot 2020-10-14 115302.jpg",
+  //   title: "Shopping Cart",
+  //   description:
+  //     "Concept used ContextApi, Axios, Styled-Components, React-Router-Dom. User can Filter thrughout the Products ex - Sort Price , filter category",
+  //   source: "https://github.com/amananku26/Basic-Shopping-Cart",
+  //   demoLink: "https://shopping-cart-a0d9a.web.app/",
+  //   badge: "ReactJS",
+  //   liveweb: "https://www.youtube.com/watch?v=ukYdUnHidq8",
+  // },
+  // {
+  //   image: "/images/covid.png",
+  //   title: "Covid Vaccine Slot Availability",
+  //   description:
+  //     "User can Get the Detail of Availability of Slots of Vaccine on one click",
+  //   source: "https://github.com/amananku26/covidSaharsa",
+  //   demoLink: "https://covidsaharsa.netlify.app/",
+  //   badge: "ReactJS",
+  // },
 ];
 
 const Projects = () => {
@@ -91,7 +98,7 @@ const Projects = () => {
                   <Badge className="lmckdncd" pill variant="warning">
                     {project.badge}
                   </Badge>
-                  {project.liveweb && (
+                  {/* {project.liveweb && (
                     <Badge className="jdnkcjd" pill variant="danger">
                       <a rel="noopener noreferrer"
                         href={project.liveweb}
@@ -102,18 +109,18 @@ const Projects = () => {
                         Youtube
                       </a>
                     </Badge>
-                  )}
+                  )} */}
                   <div className="project-card">
-                    <div className="img-section">
-                      <Img
+                    <div className="img-section width-100p height-200px cor-bg-style" loop autoplay style={{backgroundImage:`url(${project.image})`}}>
+                      {/* <Img
                         placeholder="https://p4.wallpaperbetter.com/wallpaper/990/450/548/loading-wallpaper-preview.jpg"
                         src={project.image}
                         error="/images/download.png"
                         alt="React Cool Img"
-                      />
+                      /> */}
                       <div className="imageCardEffect"></div>
                     </div>
-                    <div className="project-info">
+                    <div className="project-info1">
                       <h5 className="color-white font-weight-bold">
                         {project.title}
                       </h5>
